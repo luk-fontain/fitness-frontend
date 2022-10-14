@@ -1,2 +1,2 @@
 # fitness-frontend
-Final Project Fitness Frontend
+DCI Final Project Grupo 5 Fitness Frontend
