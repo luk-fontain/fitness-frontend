@@ -1,0 +1,84 @@
+.user_container {
+	width: 100%;
+	/* height: 1011px; */
+}
+
+/* .bewegMich {
+	margin-top: 3rem;
+} */
+.container_gelb {
+	background-color: #ffab2d;
+	height: 280px;
+	padding-top: 15px;
+}
+
+.container_gelb h3 {
+	color: black;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.container_gelb a {
+	text-decoration: none;
+}
+
+.container_gelb i {
+	color: black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: max-content;
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+
+.imgUser {
+	display: block;
+	height: 13vh;
+	margin: 0 auto;
+}
+
+.container_white {
+	background-color: #f4f4f4;
+
+	height: 400px;
+	padding: 1rem;
+}
+
+.container_white h2 {
+	border-bottom: 2px solid black;
+	text-align: center;
+	padding: 2rem;
+}
+
+.textInfo {
+	margin-top: 3rem;
+}
+.info_gelb {
+	margin-top: 3rem;
+}
+
+.container_white i {
+	color: black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: max-content;
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+
+.login {
+	text-align: center;
+}
+
+.login a {
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.5s ease-in-out;
+	font-size: 1.2rem;
+}
+
+.login a:hover {
+	color: #f96a43;
+}

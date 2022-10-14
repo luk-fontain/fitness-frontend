@@ -1,0 +1,46 @@
+
+
+
+.kurse h1 {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+/* .carousel-item {
+    margin-bottom: 1rem;
+} */
+
+ .carousel-item img {
+    object-fit: cover;
+    width: 100vw;
+    height: 30vh;
+}
+
+.kurse h3 {
+    background-color: rgba(97, 100, 101, 0.854);
+    width: max-content;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+}
+.kurse a {
+    text-decoration: none;
+    color: white;
+}
+.h3container {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+	.kurse_container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .carousel-item img {
+        width: 30vw;
+        margin: 1.25rem;
+    }
+.kurse{
+    margin-top: 2rem;
+}
+}

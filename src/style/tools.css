@@ -1,0 +1,58 @@
+/* Rectangle 49 */
+.bmi {
+  box-sizing: border-box;
+  /* position: relative; */
+  width: 80%;
+  height: 69px;
+  background: url("https://images.unsplash.com/photo-1579758629938-03607ccdbaba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"); 
+ 
+  border: 1px solid #000000;
+  border-radius: 47px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+.tools_p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d382;
+  border-radius: 1rem;
+}
+.kalorien {
+  box-sizing: border-box;
+  /* position: relative;  */
+  width: 80%;
+  height: 69px;
+  background: url("https://images.unsplash.com/photo-1579758629938-03607ccdbaba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  border: 1px solid #000000;
+  border-radius: 47px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.a_tools {
+  text-decoration: none;
+  color: black;
+}
+.a_tools:hover {
+  color: #f96a43;
+}
+@media only screen and (min-width: 600px) {
+	.bmi{
+    height: 97px;
+  }
+  .kalorien{
+    height: 97px;
+  }
+  #tools_h1{
+    margin-top: 3rem;
+  }
+}

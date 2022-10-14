@@ -1,0 +1,72 @@
+.nav {
+	display: flex;
+	background: rgb(24, 29, 30);
+	background: linear-gradient(
+		127deg,
+		rgba(24, 29, 30, 1) 0%,
+		rgba(24, 29, 30, 0.7413165949973739) 100%
+	);
+	z-index: 10;
+	position: sticky;
+	top: 0;
+	justify-content: space-between;
+	width: 100vw;
+}
+
+i {
+	color: white;
+	font-size: 2rem;
+	transition: 0.5s color ease-in-out;
+}
+
+i:hover {
+	color: #f96a43;
+}
+
+.rechts {
+	display: flex;
+	align-items: center;
+}
+
+.nav-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-link a {
+	color: rgb(0, 0, 0);
+}
+.nav-link {
+	color: white;
+	transition: 0.5s color ease-in-out;
+}
+.nav-link:hover {
+	color: #f96a43;
+}
+
+.off {
+	display: none;
+}
+
+.burgermenu {
+	width: 50%;
+	background-color: #4e5253;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+.burgermenu p a {
+	text-decoration: none;
+	color: white;
+}
+
+.burgermenu p a:hover {
+	color: #ff8966;
+}
+/* .kurse_link{
+  display: none;
+}
+@media only screen and (min-width: 600px) {
+  .kurse_link{
+    display: block;
+  }
+  } */

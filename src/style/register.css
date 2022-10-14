@@ -1,0 +1,60 @@
+.register-container {
+	padding: 2rem;
+	/* position: absolute; */
+	width: 100%;
+	background-color: #f4f4f4;
+}
+
+h1 {
+	text-align: center;
+}
+.h1_register {
+	margin-bottom: 3rem;
+}
+
+.register-container h3 {
+	color: #66b6ff;
+	text-align: center;
+}
+.adresse-h3 {
+	margin-top: 4rem;
+}
+.form-control {
+	border-bottom: 2px solid black;
+	padding-left: 2rem; /*damit der tex vom imputfeld nicht so nah zu icon steht*/
+	background-color: #f4f4f4;
+}
+
+.btn-primary {
+	width: 183px;
+	height: 41px;
+	background: #66b6ff;
+	border-radius: 0.5rem;
+	font-size: x-large;
+	margin: 0 auto;
+	display: flex; /* text von button in der miete */
+	justify-content: center;
+	margin-top: 4rem;
+}
+
+.icon {
+	color: #c8c6c6;
+	position: relative; /* um icons zu positionieren*/
+	bottom: -2rem;
+}
+
+.inputText {
+	padding-left: 3rem;
+}
+
+.p-alert {
+	color: tomato;
+	font-weight: bold;
+}
+@media only screen and (min-width: 600px) {
+	.register-container {
+		/* display: flex; */
+		width: 35vw;
+		margin: auto;
+	}
+}

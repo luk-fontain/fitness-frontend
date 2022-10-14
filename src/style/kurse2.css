@@ -1,0 +1,57 @@
+
+.kurse-container {
+    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+
+.video {
+    width: 100% !important;
+    height: 200px ! important;
+}
+
+.kurse2_p {
+    margin-top: 1rem;
+    text-align: justify;
+    font-weight: 800;
+}
+
+.sport_icon {
+    width: 1rem;
+    height: 2rem;
+}
+
+.kurse-container h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #d73b0a;
+}
+
+#kurse_h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 2rem;
+}
+
+@media only screen and (min-width: 780px) {
+    .video {
+        width: 100% !important;
+        height: 300px ! important;
+        padding: 1rem;
+    }
+
+    .kurse2_p {
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .kurse-container {
+        width: 70%;
+        margin: 0 auto;
+
+    }
+
+}

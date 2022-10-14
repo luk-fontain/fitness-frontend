@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/* font-family: "Montserrat", sans-serif; */
+}
+
+.main {
+	/* width: 100%;
+	height: 100%; */
+	background-color: #fff;
+}
+.list-panel {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	/* align-items: center; */
+	font-size: 2rem;
+	font-weight: 600;
+	padding: 1rem;
+	list-style-type: none;
+}
+
+.list-panel li {
+	padding: 1.5rem;
+	margin-bottom: 1.5rem;
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+}
+
+/* li:hover {
+	color: bisque;
+} */
+
+.user-icon {
+	padding-left: 0.6rem;
+}
+
+.calc-icon {
+	padding-left: 0.2rem;
+}
+
+i {
+	padding: 0.35rem;
+}
+.list-panel li i:nth-child(1) {
+	color: #66b6ff;
+}
+
+.list-panel li a {
+	text-decoration: none;
+	color: #212529;
+	transition: 0.5s color ease-in-out;
+}
+
+.list-panel li a:hover {
+	color: #f96a43;
+}
+
+.icons {
+	font-size: 30px;
+}

@@ -1,0 +1,171 @@
+.container {
+    /* damit footer auch nach add info(wie in bmi rechner, wir laden info nach drücken auf berechen button)auch responsive wird und am ende der seite bleibt */
+    height: max-content; 
+}
+
+.input_container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-around;
+
+}
+
+.bmi_h1 {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #DFDFE2;
+}
+
+.ergebnisse_container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.input_bmi {
+    border-bottom: 2px solid #DFDFE2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 7rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+
+
+/*um rahmen around input fenster aus zu schalten*/
+input {
+    outline: 0;
+    font-size: 18px;
+}
+
+.bmi_button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bmi_button {
+    margin-top: 4rem;
+    border-radius: 1rem;
+    background-color: #1FA5FA;
+    color: white;
+    width: 10rem;
+    padding: 0.25rem;
+    font-size: 21px;
+    /* position: fixed; */
+}
+
+/*hier  für bmi infp h1 und h2*/
+.ergebnisseK {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.ergebnisse_info {
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+/*style radio buttons*/
+.input_radio {
+    margin-top: 4rem;
+}
+/*um standarte runde buttons*/
+label input {
+    visibility: hidden;
+    position: absolute;
+}
+
+ label i {
+    cursor: pointer;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 3rem;
+    color: #DFDFE2;
+    
+    margin-top: 4rem;
+    padding: 1REM;
+    /* border: 2px solid rgb(27, 198, 158); */
+}
+
+.input_radio:checked+i {
+    color: #4DB6AC;
+}
+
+/*versuch animation bauen*/
+.animation {
+    margin-top: 6rem;
+    /* background-color: #DFDFE2; */
+    background: linear-gradient(90deg, rgba(40,177,222,1) 0%, rgba(76,175,80,1) 50%, rgba(255,152,0,1) 100%);
+    width: 100%;
+    height: 3rem;
+    clip-path: polygon(0% 20%, 83% 21%, 85% 0, 100% 50%, 85% 100%, 83% 80%, 0% 80%);
+   
+}
+
+/* text-align: justify =>text wird seiten breit. rechts und links */
+.info_container {
+    margin-top: 2rem;
+    text-align: justify;
+    padding: 1rem;
+    font-size: 21px;
+}
+
+.input_container2{
+    margin-left: 1.5rem;
+}
+.weight{
+    margin-left: 6.5rem;
+}
+.h2kalorien{
+    color: #4DB6AC;
+}
+
+.kalorienZiffern{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 6rem;
+    /* margin-top: -3rem;  */
+}
+.kalorienZiffern li{
+    margin-top: 1rem;
+    list-style: none;
+}
+
+
+@media only screen and (min-width: 600px) {
+    
+	.input_container2 {
+        margin-left: -3.5rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: space-evenly;
+      
+    }
+}
+
+
+
+@media only screen and (min-width: 300px){
+.weight{
+    margin-left:4.5rem;
+}
+}
+@media only screen and (min-width: 420px){
+    .weight{
+        margin-left:7rem;
+    }
+    }
+
+
+

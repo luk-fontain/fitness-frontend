@@ -1,0 +1,66 @@
+
+.edit_user_container {
+    width: 100%;
+
+}
+
+.container_Gelb {
+    background-color: #FFAB2D;
+    height: 280px;
+}
+
+.container_Gelb h3 {
+    color: black;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.container_Gelb i {
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    font-size: 2rem;
+    margin-top: 9rem;
+
+
+}
+
+.imgUser2 {
+    height: 13vh;
+    /*positionieren in der mitte. margin 0 auto hat nicht gecklappt*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+.container_White {
+    background-color: #F4F4F4;
+    height: max-content;
+    padding: 1rem;
+}
+
+.container_White h2 {
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 2rem;
+}
+.textInfo1{
+    margin-top: 3rem;
+}
+.icon {
+	color: #c8c6c6;
+	position: relative; /* um icons zu positionieren*/
+	bottom: -2rem;
+	font-size: 17px;
+}
+.inputText {
+	padding-left: 3rem;
+}
+.form-control {
+	border-bottom: 2px solid black;
+	padding-left: 2rem; /*damit der tex vom imputfeld nicht so nah zu icon steht*/
+	background-color: #f4f4f4;
+}

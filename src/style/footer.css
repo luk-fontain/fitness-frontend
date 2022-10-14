@@ -1,0 +1,87 @@
+.footer {
+	box-sizing: border-box;
+	/* position: relative; */
+	background: linear-gradient(
+		91.15deg,
+		#181d1e 1.27%,
+		rgba(24, 29, 30, 0.65) 100%
+	);
+	background-blend-mode: darken;
+	border: 1px solid #000000;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	z-index: -10;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	/* margin-top: 1rem; */
+}
+
+.footer_icons a {
+	display: flex;
+	color: #ffffff;
+	font-size: 2rem;
+	text-decoration: none;
+}
+
+.footer_icons .icons:hover {
+	color: #f96a43;
+}
+
+.textlinks {
+	color: #ffffff;
+	text-decoration: none;
+	padding-left: 1.5rem;
+	transition: 0.5s color ease-in-out;
+}
+
+.textlinks:hover {
+	color: #f96a43;
+}
+
+.footer p {
+	color: #f96a43;
+	font-size: 0.7rem;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+
+.footer_icons {
+	display: flex;
+	justify-content: left;
+}
+.footer_textlinks {
+	display: flex;
+	justify-content: space-around;
+}
+
+@media only screen and (min-width: 600px) {
+	.footer_icons {
+		display: flex;
+		justify-content: left;
+		margin-right: 12rem;
+	}
+	.footer_textlinks {
+		display: flex;
+		justify-content: right;
+		margin-right: 2rem;
+	}
+	.footer .icons {
+		padding-right: 1rem;
+	}
+	.footer_textlinks a {
+		padding-left: 6rem;
+	}
+
+	/*hier machen verteilen wir unsere icons links und textlinks in divs damit wir diese in vershiedene seiten lassen könnten.icons links links und textlinks rechts. mit padding machen abstand zwishen elemente*/
+
+	.footer_icons a {
+		padding-right: 4rem;
+	}
+	.footer_textlinks a {
+		padding-left: 6rem;
+	}
+}

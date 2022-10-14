@@ -1,0 +1,149 @@
+.menu-item i:hover {
+	color: #f96a43;
+}
+/* Position and sizing of burger button */
+.bm-burger-button {
+	position: fixed;
+	width: 30px;
+	height: 25px;
+	left: 1rem;
+	top: 0.4rem;
+}
+
+.menu-item a i {
+	width: 30px !important;
+	height: 25px !important;
+}
+/*icons in burger nḿenu positioniren.sie haben unterschiefliche grösse, die wir nivht verändern möchten(gantel, zum beispiel, verkleinen , wird nicht shön assehen)*/
+.fa-calculator {
+	margin-left: 6px;
+}
+.fa-burger {
+	margin-left: 2px;
+}
+.fa-file-contract {
+	margin-left: 6px;
+}
+.fa-gear {
+	margin-left: 3px;
+}
+.fa-person-running {
+	margin-left: 6px;
+}
+.fa-dumbell {
+	margin-left: -2px;
+}
+.menu-item .fa-user {
+	margin-left: 5px;
+}
+
+.menu-sidebar {
+	display: flex !important;
+	flex-direction: column !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+	background: #4f5354;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+	background: #f96a43;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+	position: absolute !important;
+	right: -1px !important;
+	height: 24px;
+	width: 24px;
+	top: -3px !important;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+	background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+	top: 2.5rem;
+	left: 0;
+	position: fixed;
+	height: auto !important;
+	width: auto !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+	background: #181b1c;
+	padding: 3em em 0;
+	border-end-end-radius: 1rem;
+	font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+	fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+	color: #b8b7ad;
+	padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+	display: inline-block;
+	color: #d1d1d1;
+	margin-bottom: 10px;
+	text-align: left;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.bm-item:hover {
+	color: #ffffff;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+	/* background: rgba(0, 0, 0, 0.3); */
+	height: auto !important;
+	width: auto !important;
+}
+/*um würter für mobile version zu vertecken und für grössere bildshirme das anzuzeigen in mediaquerry*/
+
+/* .menu-item  p{
+display: none;
+} */
+
+  .menu-item  p{
+    display: block;
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-top: -2rem;
+    }
+    .menu-item p:hover{
+      color: #f96a43;
+    }
+
+@media only screen and (min-width: 600px) {
+	.menu-item p {
+		display: block;
+		font-size: 1rem;
+		margin-left: 3rem;
+		margin-top: -2rem;
+	}
+	.menu-item p:hover {
+		color: #f96a43;
+	}
+}
+

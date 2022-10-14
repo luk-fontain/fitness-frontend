@@ -1,0 +1,168 @@
+.userKurse {
+	/* text-align: center; */
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.userKurseNav {
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+}
+
+.userKurseNavRechts {
+	display: flex;
+	align-items: space-between;
+	justify-content: center;
+}
+
+.userKurseNavRechts .fa-calendar-days {
+	color: #f96a43;
+}
+
+.userKurseNavRechts p {
+	font-weight: bold;
+	margin-bottom: 0rem;
+}
+
+.userKurseNavRechts div {
+	font-size: 1rem;
+	padding: 0.4rem;
+	margin: 0.2rem;
+	line-height: 1;
+	/* background-color: gray; */
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+/* Hier fangen die Buttons mit den kursen an */
+
+.userKurseHeading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 1;
+}
+
+.userKurseHeading button {
+	width: 10rem;
+	margin: 0.5rem;
+	padding: 0.4rem;
+	border-radius: 0.5rem;
+	background: linear-gradient(160deg, #f96a43 45%, rgba(255, 137, 102, 0) 110%);
+}
+
+.userKurseHeading button:hover {
+	background-color: orange;
+	box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.userKurseHeading button h6 {
+	margin-bottom: 0rem;
+}
+
+/* Tabelle Buchungen für jeden Kurs*/
+
+table,
+th,
+td,
+caption {
+	border: 1px solid #f96a43;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 10;
+	border-width: 0.3rem;
+	border-radius: 1rem;
+	padding: 0.2rem;
+	margin: 1rem;
+	table-layout: fixed;
+	max-width: 100%;
+}
+
+th,
+td {
+	border-radius: 0.5rem;
+	font-weight: normal;
+	text-align: left;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+th,
+caption {
+	background-color: #f1f3f4;
+	font-weight: 700;
+}
+
+.kursname {
+	width: 11rem;
+}
+
+.slide_text {
+	display: none;
+}
+
+.td-button {
+	padding: 0rem;
+}
+
+.table-button {
+	width: 100%;
+	height: 2.5rem;
+	background-color: white;
+	border-radius: 0.5rem;
+}
+
+/* media query */
+
+@media only screen and (min-width: 600px) {
+	.userKurseNav {
+		justify-content: start;
+		width: max-content;
+		margin-left: 3rem;
+		/* border: 2px solid black;
+    border-radius: 0.5rem; */
+	}
+
+	.userKurseNavRechts div {
+		/* width: 5rem; */
+		margin: 0.5rem;
+		padding: 0.4rem;
+		border-radius: 0.5rem;
+		/* background: linear-gradient( 160deg, #f96a43 45%, rgba(255, 137, 102, 0) 110% ); */
+	}
+
+	.userKurseHeading {
+		flex-direction: column;
+	}
+
+	table {
+		margin: auto;
+		margin-top: 1rem;
+		width: max-content;
+	}
+
+	.slide_text {
+		display: block;
+		text-align: justify;
+		width: 45vw;
+	}
+
+	.userKurse {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin: 2rem;
+		gap: 2rem;
+	}
+}
+
+/*tablet*/
+@media only screen and (min-width: 1000px) {
+	.userKurseHeading {
+		flex-direction: row;
+	}
+}

@@ -1,0 +1,73 @@
+.container {
+	/* background-color:#EFEFEF; */
+	/* height: 100vh; */
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.input_container {
+	display: flex;
+	justify-content: space-around;
+	gap: 3rem;
+}
+.bmi_h1 {
+	padding: 1rem;
+	text-align: center;
+	border-bottom: 2px solid #dfdfe2;
+}
+.ergebnisse_container {
+	display: flex;
+	justify-content: center;
+}
+
+.input_bmi {
+	border-bottom: 2px solid #dfdfe2;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 7rem;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+/*um rahmen around input fenster aus zu schalten*/
+input {
+	outline: 0;
+	font-size: 18px;
+}
+
+.bmi_button_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bmi_button {
+	margin-top: 4rem;
+	border-radius: 1rem;
+	background-color: #1fa5fa;
+	color: white;
+	width: 10rem;
+	padding: 0.25rem;
+	font-size: 21px;
+	/* position: fixed; */
+}
+
+/*hier  für bmi infp h1 und h2*/
+.ergebnisse {
+	margin-top: -2rem;
+	text-align: center;
+}
+.ergebnisse_info {
+	padding: 1rem;
+	text-align: center;
+}
+/* text-align: justify =>text wird seiten breit. rechts und links */
+.recomendations {
+	text-align: justify;
+	padding: 1rem;
+	font-size: 21px;
+}
+.recomendations a {
+	text-decoration: none;
+}
